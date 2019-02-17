@@ -1,0 +1,19 @@
+h1.testClass {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header1{
+    color: green;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#header2{
+    color: pink;
+    font-style: italic;
+    font-size: 26px;
+    font-family: 'Courier New';
+}
+
