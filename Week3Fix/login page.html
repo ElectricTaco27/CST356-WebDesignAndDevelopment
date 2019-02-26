@@ -1,0 +1,33 @@
+<a href="index.html">Home Page</a>
+<br><br>
+<head>
+    <!--removeIf(production)-->
+    <link href="sharedcssfile.css" rel="stylesheet" type="text/css">
+    <!--endRemoveIf(production)-->
+
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<h1 class = "testClass">Login</h1>
+<body>
+    <form>
+        Username:<br>
+        <input type="text" id="username"><br>
+        Password:<br>
+        <input type="password" id="password"><br>
+        <br><br>
+        <input type="submit" value="Submit" id='submit-btn'> 
+    </form>
+    <div id='error'></div>
+    <!--removeIf(production)-->
+    <script src='js/login.js'></script>
+    <!--endRemoveIf(production)-->
+    
+    <!-- inject:js -->
+    <!-- endinject -->  
+    <script>
+        $(document).ready(function() {
+            initializeLogin();
+        });
+    </script>
+</body>
